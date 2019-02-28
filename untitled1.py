@@ -52,4 +52,6 @@ for t1 in np.arange(0, 6.28, 0.5):
             h2_3 = np.concatenate((h2_3,[[0,0,0,1]]),0)
             h0_3 = np.dot(h0_2,h2_3)
             plt.plot([0, h0_1[0,3],h0_2[0,3],h0_3[0,3]],[0,h0_1[1,3],h0_2[1,3],h0_3[1,3]])
+            #changes made later when explainging the code to a friend.
+            plt.cla()
             
